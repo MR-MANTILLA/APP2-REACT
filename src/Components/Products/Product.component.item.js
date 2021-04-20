@@ -26,7 +26,7 @@ export const ProductItem = ({ id, name, description, img, price }) => {
           <p className="price">{price}</p>
         </div>
         <div className="buttom">
-          <button className="btn btn-danger" onClick={toggle.bind(this)}>
+          <button className="btn btn-secondary" onClick={toggle.bind(this)}>
             Ver más
           </button>
           {state.show ? <Section /> : null}
