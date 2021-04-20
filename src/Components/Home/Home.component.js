@@ -5,14 +5,8 @@ export default class Home extends React.Component{
     render(){
         return(
             <div className="Home">
-                <img className="Imagen" src={ImgPortada} alt="Portada"></img>
-                <Link to="/">
-                    <h1 className="title">Inicio</h1>
-                </Link>
-                <Link to="/products">
-                    <h1 className="title">Productos</h1>
-                </Link>
-                
+              <h1 class="display-4">E-Commerce Vue</h1>
+               <p class="lead">Prueba de Vue para cursos de Desarrollo de Webb App con Frameworks</p>
             </div>
         );
     }
